@@ -10,7 +10,7 @@ function getComputerChoice() {
         return "scissors"
     }
     else {
-        alert("unavailable choice!");
+        alert("unavailable choice!")
     }
 }
 
@@ -18,6 +18,11 @@ function playRound(playerSelection, computerSelection) {
     computerSelection = getComputerChoice()
     playerSelection = prompt("rock, paper, or scissors?: ")
     playerSelection = playerSelection.toLowerCase()
+    while (playerSelection != "rock" && playerSelection != "paper" && playerSelection != "scissors") {
+        alert("unavailable choice!")
+        playerSelection = prompt("rock, paper, or scissors?: ")
+        playerSelection = playerSelection.toLowerCase()
+    }
 
     if (playerSelection == computerSelection) {
         console.log("It's a tie!")
