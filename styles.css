@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(36, 34, 113);
+    color: white;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    padding: 60px;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    flex: 1 0 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    margin: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 800;
+}
